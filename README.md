@@ -162,6 +162,10 @@ model has substantial weight outside the fitted range.
 
 Usage examples
 --------------
+    Example included:
+	python fit_elf_ritchie_howie.py Si_n_k_Palik.txt -N 1 --starts 100 --mode abs
+	
+	Other options:
     python fit_elf_ritchie_howie.py data.csv -N 8
     python fit_elf_ritchie_howie.py data.csv -N 10 --emin 1 --emax 5000 --starts 100
     python fit_elf_ritchie_howie.py data.csv            # asks for N interactively
